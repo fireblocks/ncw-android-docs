@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>[androidJvm]FireblocksError</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            Fireblocks SDK Documentation
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":sdk:dokkaHtml/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="Fireblocks SDK Documentation::com.fireblocks.sdk.events/FireblocksError///PointingToDeclaration//165651098">
+  <div class="breadcrumbs"><a href="../../../index.html">Fireblocks SDK Documentation</a><span class="delimiter">/</span><a href="../index.html">com.fireblocks.sdk.events</a><span class="delimiter">/</span><span class="current">[androidJvm]FireblocksError</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Fireblocks</span><wbr></wbr><span><span>Error</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">sealed </span><span class="token keyword">class </span><a href="index.html">FireblocksError</a></div><h4 class="">Inheritors</h4><div class="table"><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-export-key/index.html">FailedToExportKey</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-request-key/index.html">FailedToRequestKey</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-enroll-player/index.html">FailedToEnrollPlayer</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-no-first-message-timeout/index.html">NoFirstMessageTimeout</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-key-creation-timeout/index.html">KeyCreationTimeout</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-create-key/index.html">FailedToCreateKey</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-algorithms/index.html">MissingAlgorithms</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-send-public-key/index.html">FailedToSendPublicKey</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-backup-key/index.html">FailedToBackupKey</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-recover-keys/index.html">FailedToRecoverKeys</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-build-meta-data-error/index.html">BuildMetaDataError</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-empty-meta-data/index.html">EmptyMetaData</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-unexpected-error/index.html">UnexpectedError</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-tenant-id/index.html">MissingTenantId</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-backup-key/index.html">MissingBackupKey</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-unknown-algorithm/index.html">UnknownAlgorithm</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-auxiliary-keys-error/index.html">MissingAuxiliaryKeysError</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-player-ids/index.html">MissingPlayerIds</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-decrypt-key/index.html">FailedDecryptKey</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-unknown-tx-id/index.html">UnknownTxId</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-invalid-m-p-c-message/index.html">InvalidMPCMessage</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-no-first-tx-signing-message/index.html">NoFirstTxSigningMessage</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-start-signing/index.html">FailedToStartSigning</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-backup-not-available-error/index.html">BackupNotAvailableError</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-get-key-ids/index.html">FailedToGetKeyIds</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-key-ids-for-backup/index.html">MissingKeyIdsForBackup</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-keys-discrepancy-backup-error/index.html">KeysDiscrepancyBackupError</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-keys-backup-error/index.html">MissingKeysBackupError</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-key-on-device/index.html">MissingKeyOnDevice</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-request-end-user-takeover/index.html">FailedToRequestEndUserTakeover</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-key-takeover-timeout/index.html">KeyTakeoverTimeout</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-takeover-key/index.html">FailedToTakeoverKey</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-private-keys/index.html">MissingPrivateKeys</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-load-keys/index.html">FailedToLoadKeys</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-export-keys/index.html">FailedToExportKeys</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-data-to-export-key/index.html">MissingDataToExportKey</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-public-keys/index.html">MissingPublicKeys</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-derive-asset-key/index.html">FailedToDeriveAssetKey</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-cloud-private-keys/index.html">MissingCloudPrivateKeys</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-chain-code/index.html">MissingChainCode</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-public-key/index.html">MissingPublicKey</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-missing-private-key/index.html">MissingPrivateKey</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-failed-to-takeover-keys/index.html">FailedToTakeoverKeys</a></div></span></div><div></div></div></div><div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="-public-keys-discrepancy-error/index.html">PublicKeysDiscrepancyError</a></div></span></div><div></div></div></div></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="938792192%2FClasslikes%2F165651098" anchor-label="BackupNotAvailableError" id="938792192%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-backup-not-available-error/index.html"><span>Backup</span><wbr></wbr><span>Not</span><wbr></wbr><span>Available</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="938792192%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-backup-not-available-error/index.html">BackupNotAvailableError</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1483138201%2FClasslikes%2F165651098" anchor-label="BuildMetaDataError" id="-1483138201%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-build-meta-data-error/index.html"><span>Build</span><wbr></wbr><span>Meta</span><wbr></wbr><span>Data</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1483138201%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-build-meta-data-error/index.html">BuildMetaDataError</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-465198508%2FClasslikes%2F165651098" anchor-label="EmptyMetaData" id="-465198508%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-empty-meta-data/index.html"><span>Empty</span><wbr></wbr><span>Meta</span><wbr></wbr><span><span>Data</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-465198508%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-empty-meta-data/index.html">EmptyMetaData</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1107758755%2FClasslikes%2F165651098" anchor-label="FailedDecryptKey" id="1107758755%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-decrypt-key/index.html"><span>Failed</span><wbr></wbr><span>Decrypt</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1107758755%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-failed-decrypt-key/index.html">FailedDecryptKey</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword">val </span>errorString<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-32280021%2FClasslikes%2F165651098" anchor-label="FailedToBackupKey" id="-32280021%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-backup-key/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Backup</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-32280021%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-backup-key/index.html">FailedToBackupKey</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="246669925%2FClasslikes%2F165651098" anchor-label="FailedToCreateKey" id="246669925%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-create-key/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Create</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="246669925%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-create-key/index.html">FailedToCreateKey</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2114318044%2FClasslikes%2F165651098" anchor-label="FailedToDeriveAssetKey" id="-2114318044%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-derive-asset-key/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Derive</span><wbr></wbr><span>Asset</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2114318044%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-derive-asset-key/index.html">FailedToDeriveAssetKey</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-164080909%2FClasslikes%2F165651098" anchor-label="FailedToEnrollPlayer" id="-164080909%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-enroll-player/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Enroll</span><wbr></wbr><span><span>Player</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-164080909%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-enroll-player/index.html">FailedToEnrollPlayer</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-450588387%2FClasslikes%2F165651098" anchor-label="FailedToExportKey" id="-450588387%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-export-key/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Export</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-450588387%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-export-key/index.html">FailedToExportKey</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1164456014%2FClasslikes%2F165651098" anchor-label="FailedToExportKeys" id="-1164456014%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-export-keys/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Export</span><wbr></wbr><span><span>Keys</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1164456014%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-export-keys/index.html">FailedToExportKeys</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-668620583%2FClasslikes%2F165651098" anchor-label="FailedToGetKeyIds" id="-668620583%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-get-key-ids/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Get</span><wbr></wbr><span>Key</span><wbr></wbr><span><span>Ids</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-668620583%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-get-key-ids/index.html">FailedToGetKeyIds</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1956626944%2FClasslikes%2F165651098" anchor-label="FailedToLoadKeys" id="1956626944%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-load-keys/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Load</span><wbr></wbr><span><span>Keys</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1956626944%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-load-keys/index.html">FailedToLoadKeys</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="351212688%2FClasslikes%2F165651098" anchor-label="FailedToRecoverKeys" id="351212688%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-recover-keys/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Recover</span><wbr></wbr><span><span>Keys</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="351212688%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-recover-keys/index.html">FailedToRecoverKeys</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="117789832%2FClasslikes%2F165651098" anchor-label="FailedToRequestEndUserTakeover" id="117789832%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-request-end-user-takeover/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Request</span><wbr></wbr><span>End</span><wbr></wbr><span>User</span><wbr></wbr><span><span>Takeover</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="117789832%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-request-end-user-takeover/index.html">FailedToRequestEndUserTakeover</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1039409366%2FClasslikes%2F165651098" anchor-label="FailedToRequestKey" id="-1039409366%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-request-key/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Request</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1039409366%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-request-key/index.html">FailedToRequestKey</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1491794822%2FClasslikes%2F165651098" anchor-label="FailedToSendPublicKey" id="-1491794822%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-send-public-key/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Send</span><wbr></wbr><span>Public</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1491794822%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-send-public-key/index.html">FailedToSendPublicKey</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1254147927%2FClasslikes%2F165651098" anchor-label="FailedToStartSigning" id="1254147927%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-start-signing/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Start</span><wbr></wbr><span><span>Signing</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1254147927%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-start-signing/index.html">FailedToStartSigning</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1756223748%2FClasslikes%2F165651098" anchor-label="FailedToTakeoverKey" id="1756223748%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-takeover-key/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Takeover</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1756223748%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-takeover-key/index.html">FailedToTakeoverKey</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1472756565%2FClasslikes%2F165651098" anchor-label="FailedToTakeoverKeys" id="-1472756565%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-failed-to-takeover-keys/index.html"><span>Failed</span><wbr></wbr><span>To</span><wbr></wbr><span>Takeover</span><wbr></wbr><span><span>Keys</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1472756565%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-failed-to-takeover-keys/index.html">FailedToTakeoverKeys</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1985842510%2FClasslikes%2F165651098" anchor-label="InvalidMPCMessage" id="-1985842510%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-invalid-m-p-c-message/index.html"><span>Invalid</span><wbr></wbr><span><span>MPCMessage</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1985842510%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-invalid-m-p-c-message/index.html">InvalidMPCMessage</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-245916305%2FClasslikes%2F165651098" anchor-label="KeyCreationTimeout" id="-245916305%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-key-creation-timeout/index.html"><span>Key</span><wbr></wbr><span>Creation</span><wbr></wbr><span><span>Timeout</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-245916305%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-key-creation-timeout/index.html">KeyCreationTimeout</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1924757533%2FClasslikes%2F165651098" anchor-label="KeysDiscrepancyBackupError" id="-1924757533%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-keys-discrepancy-backup-error/index.html"><span>Keys</span><wbr></wbr><span>Discrepancy</span><wbr></wbr><span>Backup</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1924757533%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-keys-discrepancy-backup-error/index.html">KeysDiscrepancyBackupError</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2142901355%2FClasslikes%2F165651098" anchor-label="KeyTakeoverTimeout" id="2142901355%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-key-takeover-timeout/index.html"><span>Key</span><wbr></wbr><span>Takeover</span><wbr></wbr><span><span>Timeout</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2142901355%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-key-takeover-timeout/index.html">KeyTakeoverTimeout</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2144196198%2FClasslikes%2F165651098" anchor-label="MissingAlgorithms" id="2144196198%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-algorithms/index.html"><span>Missing</span><wbr></wbr><span><span>Algorithms</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2144196198%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-algorithms/index.html">MissingAlgorithms</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-255535044%2FClasslikes%2F165651098" anchor-label="MissingAuxiliaryKeysError" id="-255535044%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-auxiliary-keys-error/index.html"><span>Missing</span><wbr></wbr><span>Auxiliary</span><wbr></wbr><span>Keys</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-255535044%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-auxiliary-keys-error/index.html">MissingAuxiliaryKeysError</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="652688091%2FClasslikes%2F165651098" anchor-label="MissingBackupKey" id="652688091%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-backup-key/index.html"><span>Missing</span><wbr></wbr><span>Backup</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="652688091%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-backup-key/index.html">MissingBackupKey</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-770658070%2FClasslikes%2F165651098" anchor-label="MissingChainCode" id="-770658070%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-chain-code/index.html"><span>Missing</span><wbr></wbr><span>Chain</span><wbr></wbr><span><span>Code</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-770658070%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-chain-code/index.html">MissingChainCode</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1514096984%2FClasslikes%2F165651098" anchor-label="MissingCloudPrivateKeys" id="-1514096984%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-cloud-private-keys/index.html"><span>Missing</span><wbr></wbr><span>Cloud</span><wbr></wbr><span>Private</span><wbr></wbr><span><span>Keys</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1514096984%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-cloud-private-keys/index.html">MissingCloudPrivateKeys</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-482047182%2FClasslikes%2F165651098" anchor-label="MissingDataToExportKey" id="-482047182%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-data-to-export-key/index.html"><span>Missing</span><wbr></wbr><span>Data</span><wbr></wbr><span>To</span><wbr></wbr><span>Export</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-482047182%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-data-to-export-key/index.html">MissingDataToExportKey</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1612295270%2FClasslikes%2F165651098" anchor-label="MissingKeyIdsForBackup" id="1612295270%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-key-ids-for-backup/index.html"><span>Missing</span><wbr></wbr><span>Key</span><wbr></wbr><span>Ids</span><wbr></wbr><span>For</span><wbr></wbr><span><span>Backup</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1612295270%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-key-ids-for-backup/index.html">MissingKeyIdsForBackup</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1619606948%2FClasslikes%2F165651098" anchor-label="MissingKeyOnDevice" id="1619606948%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-key-on-device/index.html"><span>Missing</span><wbr></wbr><span>Key</span><wbr></wbr><span>On</span><wbr></wbr><span><span>Device</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1619606948%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-key-on-device/index.html">MissingKeyOnDevice</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-672301658%2FClasslikes%2F165651098" anchor-label="MissingKeysBackupError" id="-672301658%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-keys-backup-error/index.html"><span>Missing</span><wbr></wbr><span>Keys</span><wbr></wbr><span>Backup</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-672301658%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-keys-backup-error/index.html">MissingKeysBackupError</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="487422273%2FClasslikes%2F165651098" anchor-label="MissingPlayerIds" id="487422273%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-player-ids/index.html"><span>Missing</span><wbr></wbr><span>Player</span><wbr></wbr><span><span>Ids</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="487422273%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-player-ids/index.html">MissingPlayerIds</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-613799570%2FClasslikes%2F165651098" anchor-label="MissingPrivateKey" id="-613799570%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-private-key/index.html"><span>Missing</span><wbr></wbr><span>Private</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-613799570%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-private-key/index.html">MissingPrivateKey</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1929035391%2FClasslikes%2F165651098" anchor-label="MissingPrivateKeys" id="-1929035391%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-private-keys/index.html"><span>Missing</span><wbr></wbr><span>Private</span><wbr></wbr><span><span>Keys</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1929035391%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-private-keys/index.html">MissingPrivateKeys</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1089435902%2FClasslikes%2F165651098" anchor-label="MissingPublicKey" id="-1089435902%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-public-key/index.html"><span>Missing</span><wbr></wbr><span>Public</span><wbr></wbr><span><span>Key</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1089435902%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-public-key/index.html">MissingPublicKey</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="506107501%2FClasslikes%2F165651098" anchor-label="MissingPublicKeys" id="506107501%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-public-keys/index.html"><span>Missing</span><wbr></wbr><span>Public</span><wbr></wbr><span><span>Keys</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="506107501%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-public-keys/index.html">MissingPublicKeys</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1531161019%2FClasslikes%2F165651098" anchor-label="MissingTenantId" id="-1531161019%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-missing-tenant-id/index.html"><span>Missing</span><wbr></wbr><span>Tenant</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1531161019%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-missing-tenant-id/index.html">MissingTenantId</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="165822727%2FClasslikes%2F165651098" anchor-label="NoFirstMessageTimeout" id="165822727%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-no-first-message-timeout/index.html"><span>No</span><wbr></wbr><span>First</span><wbr></wbr><span>Message</span><wbr></wbr><span><span>Timeout</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="165822727%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-no-first-message-timeout/index.html">NoFirstMessageTimeout</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1531822843%2FClasslikes%2F165651098" anchor-label="NoFirstTxSigningMessage" id="1531822843%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-no-first-tx-signing-message/index.html"><span>No</span><wbr></wbr><span>First</span><wbr></wbr><span>Tx</span><wbr></wbr><span>Signing</span><wbr></wbr><span><span>Message</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1531822843%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-no-first-tx-signing-message/index.html">NoFirstTxSigningMessage</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="517547736%2FClasslikes%2F165651098" anchor-label="PublicKeysDiscrepancyError" id="517547736%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-public-keys-discrepancy-error/index.html"><span>Public</span><wbr></wbr><span>Keys</span><wbr></wbr><span>Discrepancy</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="517547736%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-public-keys-discrepancy-error/index.html">PublicKeysDiscrepancyError</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="747991673%2FClasslikes%2F165651098" anchor-label="UnexpectedError" id="747991673%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-unexpected-error/index.html"><span>Unexpected</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="747991673%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="-unexpected-error/index.html">UnexpectedError</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">error<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="276846029%2FClasslikes%2F165651098" anchor-label="UnknownAlgorithm" id="276846029%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-unknown-algorithm/index.html"><span>Unknown</span><wbr></wbr><span><span>Algorithm</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="276846029%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-unknown-algorithm/index.html">UnknownAlgorithm</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-321774521%2FClasslikes%2F165651098" anchor-label="UnknownTxId" id="-321774521%2FClasslikes%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-unknown-tx-id/index.html"><span>Unknown</span><wbr></wbr><span>Tx</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-321774521%2FClasslikes%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">object </span><a href="-unknown-tx-id/index.html">UnknownTxId</a> : <a href="index.html">FireblocksError</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-1952502584%2FProperties%2F165651098" anchor-label="errorCode" id="-1952502584%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="error-code.html"><span>error</span><wbr></wbr><span><span>Code</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1952502584%2FProperties%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="error-code.html">errorCode</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-290114268%2FProperties%2F165651098" anchor-label="errorString" id="-290114268%2FProperties%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="error-string.html"><span>error</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-290114268%2FProperties%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">val </span><a href="error-string.html">errorString</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1547389777%2FFunctions%2F165651098" anchor-label="toString" id="1547389777%2FFunctions%2F165651098" data-filterable-set=":sdk:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":sdk:dokkaHtml/release" data-filterable-set=":sdk:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="to-string.html"><span>to</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1547389777%2FFunctions%2F165651098"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":sdk:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="to-string.html"><span class="token function">toString</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© CopyRight Fireblocks 2023</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

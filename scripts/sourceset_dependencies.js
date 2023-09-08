@@ -1,0 +1,1 @@
+sourceset_dependencies='{":sdk:dokkaHtml/debug":[],":sdk:dokkaHtml/dev":[],":sdk:dokkaHtml/devDebug":[],":sdk:dokkaHtml/devRelease":[],":sdk:dokkaHtml/main":[],":sdk:dokkaHtml/production":[],":sdk:dokkaHtml/productionDebug":[],":sdk:dokkaHtml/productionRelease":[],":sdk:dokkaHtml/release":[]}'
